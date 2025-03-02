@@ -25,5 +25,5 @@ let r = 0.5
 setInterval(() => createFallingImage(r), 2000);
 
 document.getElementById('start_game').addEventListener('click', function() {
-    window.location.href = '../game/start.html';
+    window.location.href = 'game/start.html';
 });
