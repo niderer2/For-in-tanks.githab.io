@@ -1,0 +1,66 @@
+body{
+	background-image: url(../images/fon.png);
+}
+.tank{
+	position:absolute;
+	transform:rotate(90deg);
+	left:0px;
+	z-index: -1;
+    top:400px;
+}
+.img1{
+	position:absolute;
+	transform:rotate(-90deg);
+	left:-1000px;
+	z-index: -1;
+	display: none;
+}
+.projectile{
+    height: 70px;
+    width: 30px;
+	position:absolute;
+	left:0px;
+	z-index: -1;
+    display: none;
+}
+.txt{
+	position: absolute;
+	font-size: 2rem;
+	top: 10px;
+	left: 20px;
+}
+
+.life{
+	position: absolute;
+	font-size: 2rem;
+	top: 10px;
+	left: 250px;
+}
+.boom {
+	position: absolute;
+	left: 0px;
+	height: 100px;
+	width: 100px;
+	z-index: -1;
+	display: none;
+}
+
+.reset{
+	position: absolute;
+	font-size: 2rem;
+	top: 30px;
+	left: 250px;
+}
+.spore{
+	position: absolute;
+	font-size: 2rem;
+	top: 70px;
+	left: 250px;
+}
+
+.spore_txt {
+	position: absolute;
+	font-size: 2rem;
+	top: 60px;
+	left: 20px;
+}
